@@ -1,0 +1,20 @@
+This folder consists of 7 files in total that are :
+
+console.c - This is the main file which consists of main function, function to parse commands and execute functions which recognizes the tpye of command and sends the command to respective function
+
+builtin.c - This file contains the builtin functions that are cd , pwd , echo , pinfo
+
+builtin.h - Header file for builtin.c containing the function declarations of builtin commands
+
+nonbuiltin.c - This file contains the function to execute non builtin functions
+
+nonbuiltin.h - Header file for nonbuiltin.h , contains function declaration for nonbuiltin.h
+
+README - Contains information about this shell implementation
+
+
+For compilation just run the command "make" (without double quotes)
+
+For cleaning that is removing the compiled program and .o file run "make clean" (without double quotes)
+
+This shell program has pwd,cd,pinfo,echo as builtin commands and it can execute all the other non builtin commands either in foreground or in background
